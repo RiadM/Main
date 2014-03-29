@@ -48,6 +48,4 @@ public int getdistanceV(int low, int high){
 }
 }
 
-//test sur ordinateur 2
-//réussite test d'ordinateur 2, maintenant essaie sur ordinateur 1 
 
