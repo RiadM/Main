@@ -47,5 +47,7 @@ public int getdistanceV(int low, int high){
 		return nomba ;
 }
 }
+
+//test sur ordinateur 2
 	
 
