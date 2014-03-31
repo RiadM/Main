@@ -11,8 +11,6 @@ public class Main_loop {
 		//Set up le Scanner
 		Scanner input = new Scanner(System.in);
 		
-		//set-up l'instance distance
-		distanceV distanceD = new distanceV();
 		
 		//Set up les variables
 		int choix = 0;
@@ -41,17 +39,17 @@ public class Main_loop {
 		switch(choix)
 		{
 		case(1): //Donne une distance entre 2000 et 4000 par shot de 50m
-			System.out.println(distanceDemander = distanceD.getdistanceV(40,80));
+			System.out.println(distanceMatrix.distanceRandom(40,80));
 		
 			break;
 			
 		case(2): //Donne une distance entre 4000 et 6000 par shot de 50m
-			System.out.println(distanceDemander = distanceD.getdistanceV();	
+			System.out.println(distanceMatrix.distanceRandom(80,120));	
 			
 			break;
 			
 		case(3): //Donne une distance entre 5500 et 8000 par shot de 50m
-			System.out.println(distanceDemander = distanceD(120,160));
+			System.out.println(distanceMatrix.distanceRandom(120,160));
 		
 			break;
 			
