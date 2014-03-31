@@ -20,14 +20,16 @@ public class Main_loop {
 		
 		
 		// Contrôle des choix
+		System.out.println("Choix du type d'entrainement");
 		System.out.println("");
-		System.out.println("1 - Sprint        ");
-		System.out.println("2 - Mid/Sprint	  ");
-		System.out.println("3 - Long Distance ");
+		System.out.println("1 - Sprint        *[2000m à 4000m]*");
+		System.out.println("2 - Mid/Sprint	  *[4000m à 6000m]*");
+		System.out.println("3 - Long Distance *[5500m à 8000m]*");
+		System.out.println("4 - Personnalisé  *               *");
 		System.out.println("************************************");
 		
 		//demande du choix à l'utilisateur
-		System.out.print("Quels entrainement : ");
+		System.out.print("Entrainement le type d'entrainement désiré: ");
 		choix = input.nextInt() ;
 		
 		System.out.println("");
