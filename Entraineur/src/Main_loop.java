@@ -55,6 +55,10 @@ public class Main_loop {
 		
 			break;
 			
+		case(4)://Donne une distance personnalisée
+			
+			break;
+		
 		default:
 			System.out.println("Defaut");
 			break;
@@ -65,5 +69,4 @@ public class Main_loop {
 		//closing the scanner
 		input.close();
 	}
-
 }
