@@ -15,7 +15,7 @@ public class Main_loop {
 		//Set up les variables
 		int choix = 0;
 		int distanceDemander = 0;
-		List repartition = new ArrayList() ;
+		int repartitionDeLentrainement = 0;
 		
 		
 		
@@ -28,9 +28,13 @@ public class Main_loop {
 		System.out.println("4 - Personnalisé  *               *");
 		System.out.println("************************************");
 		
-		//demande du choix à l'utilisateur
+		//Demande du choix à l'utilisateur
 		System.out.print("Entrainement le type d'entrainement désiré: ");
 		choix = input.nextInt() ;
+		
+		//Demande à l'utilisateur combien de sets(parties) il désire.
+		System.out.print("Nombre de sets(parties): ");
+		repartitionDeLentrainement = input.nextInt();
 		
 		System.out.println("");
 		//Demande de la distance 
